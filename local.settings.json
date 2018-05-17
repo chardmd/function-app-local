@@ -1,0 +1,17 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "SERVICEBUS_CONNECTION":
+      "<service bus connection here>",
+    "AzureWebJobsDashboard":
+      "<webjobs dashboard connection here>",
+    "AzureWebJobsStorage":
+      "<web job storage connection here>",
+    "FUNCTIONS_EXTENSION_VERSION": "~1",
+    "WEBSITE_NODE_DEFAULT_VERSION": "6.5.0"
+  },
+  "Host": {
+    "LocalHttpPort": 7071,
+    "CORS": "*"
+  }
+}
